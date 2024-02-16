@@ -1,2 +1,2 @@
-# DS_Project
+# Coding Practices 
  Practicing DS
