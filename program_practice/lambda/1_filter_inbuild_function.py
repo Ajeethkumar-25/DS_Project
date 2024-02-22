@@ -1,5 +1,5 @@
-lst = [5,6,2,4,6,7,80,10]
-
+ 
+# Normal way:
 # def even(data):
 #     evenlst =[]
 #     for i in data:
@@ -9,7 +9,7 @@ lst = [5,6,2,4,6,7,80,10]
 # result = even(lst)
 # print(result)
 
-
+# using Filter
 def even(data):
     return data %2==0
 result =list(filter(even,lst))  #logic, Data

@@ -1,0 +1,7 @@
+Swapping the variable
+Prime number or not
+Fibonacci Series
+Reverse string
+Palindrome
+List comprehension
+modules and packages

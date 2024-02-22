@@ -13,6 +13,6 @@ import re
 # print(result)
 
 
-data = "python"      #except; p@Y@T@H@O@N
-result = re.sub("","@", data)
-print(result)
+# data = "python"      #except; @p@Y@T@H@O@N
+# result = re.sub("","@", data)
+# print(result)
