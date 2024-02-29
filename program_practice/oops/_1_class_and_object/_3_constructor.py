@@ -5,9 +5,11 @@
 # It is used to create an object
 # It is use to initialize instance variable
 # constructor has same name as class name
+# constructor  bydefault gives you an object, so it doesn't acceptreturn statement
 
 
 # NOTE:      its not recommended to write logical code inside constructor
+
 # Types of constructor:
 # Default construtor: when you dont create  an constructor of your  class, then compileer provides an default condtructor
 # Zero constructor: Constructor without parameter
@@ -26,11 +28,10 @@ class constructor:
 obj = constructor("Ajeeth", 23)                     #creating object
 obj.display()
 obj1 = constructor("Sivani", 24)
-obj1.display()
+obj1.display() 
 obj2 = constructor("Ramya", 25)
 obj2.display()   
-# obj.__init__() -- Not required
+# obj.__init__() -- Not required but it also works 
 
 
 # Anything we have end with () bracket means its a function
-# 
