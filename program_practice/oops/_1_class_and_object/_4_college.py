@@ -14,7 +14,7 @@ class college:
         print("Student Roll No : ",self.sno)
         print("Student Address : ",self.saddress)
         
-college.college_name = "coder"
+# college.college_name = "coder"
 
 print(college.college_name)
 college_obj1 = college("Ajeeth", 89, "Chennai")
