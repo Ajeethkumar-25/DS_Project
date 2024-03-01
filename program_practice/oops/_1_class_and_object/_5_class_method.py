@@ -1,4 +1,5 @@
 # class method - are used to specifically deal with static/class variable
+# class method does not accept instance variable
 
 class college:
 
@@ -15,7 +16,22 @@ class college:
         print("Student Roll No : ",self.sno)
         print("Student Address : ",self.saddress)
 
+    @classmethod
+    def set_college_name(cls,college_name):
+        cls.college_name = college_name
 
+    @classmethod
+    def get_college_name(cls,college_name):
+        return cls.college_name
+    
 college_obj1 = college("Aryan",89,"Mumbai")
 print(college_obj1.college_name)
 college_obj1.display()
+
+cname = college.get_college_name()
+print("College Name : ",cname)
+
+college.set_college_name("Coder")
+
+cname = college.get_college_name()
+print("College Name : ",cname)
