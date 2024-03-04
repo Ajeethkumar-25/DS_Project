@@ -1,2 +1,2 @@
 # Coding Practices 
- Practicing DS
+ Practicing Topicswise
