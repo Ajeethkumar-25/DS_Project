@@ -7,3 +7,4 @@ README
 🌱 I’m currently learning MCA in AI/ML
 💞️ I’m looking to collaborate on Data analytics
 📫 How to reach me ajeeth.kumarm23@gmail.com
+
